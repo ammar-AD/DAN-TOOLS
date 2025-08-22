@@ -1,0 +1,131 @@
+{
+  "Web Tools": [
+    {"name": "Burp Suite", "description": "Web app security testing tool with proxy & scanner.", "command": "burpsuite"},
+    {"name": "OWASP ZAP", "description": "Web app vulnerability scanner.", "command": "zap.sh"},
+    {"name": "Nikto", "description": "Web server vulnerability scanner.", "command": "nikto"},
+    {"name": "Sqlmap", "description": "Automatic SQL injection and database takeover tool.", "command": "sqlmap"},
+    {"name": "WPScan", "description": "WordPress vulnerability scanner.", "command": "wpscan"},
+    {"name": "WhatWeb", "description": "Website fingerprinting tool.", "command": "whatweb"},
+    {"name": "Dirb", "description": "Web content scanner and directory brute-forcer.", "command": "dirb"},
+    {"name": "Gobuster", "description": "Directory/file & DNS busting tool.", "command": "gobuster"},
+    {"name": "Acunetix", "description": "Automated web vulnerability scanner.", "command": "acunetix"},
+    {"name": "Wfuzz", "description": "Web application brute-forcing tool.", "command": "wfuzz"}
+  ],
+
+  "Scanning Tools": [
+    {"name": "Nmap", "description": "Network scanning tool to discover devices and open services.", "command": "nmap"},
+    {"name": "Masscan", "description": "High-speed network port scanner.", "command": "masscan"},
+    {"name": "Netcat", "description": "Networking utility for reading/writing network connections.", "command": "nc"},
+    {"name": "Fping", "description": "Ping multiple hosts in parallel.", "command": "fping"},
+    {"name": "Hping3", "description": "Packet crafting and analysis tool.", "command": "hping3"},
+    {"name": "Angry IP Scanner", "description": "Fast network scanner for IP addresses & ports.", "command": "ipscan"},
+    {"name": "Zmap", "description": "Network scanner for internet-wide surveys.", "command": "zmap"},
+    {"name": "OpenVAS", "description": "Full-featured vulnerability scanner.", "command": "openvas"},
+    {"name": "Nessus", "description": "Vulnerability assessment tool.", "command": "nessus"},
+    {"name": "Amap", "description": "Application protocol scanner.", "command": "amap"}
+  ],
+
+  "Wireless Tools": [
+    {"name": "Aircrack-ng", "description": "WiFi security testing and cracking tool.", "command": "aircrack-ng"},
+    {"name": "Wifite", "description": "Automated wireless attack tool.", "command": "wifite"},
+    {"name": "Fern Wifi Cracker", "description": "WiFi auditing tool.", "command": "fern-wifi-cracker"},
+    {"name": "Kismet", "description": "Wireless network detector, sniffer, and IDS.", "command": "kismet"},
+    {"name": "Airgeddon", "description": "Wireless auditing tool.", "command": "airgeddon"},
+    {"name": "Reaver", "description": "WPS brute force attack tool.", "command": "reaver"},
+    {"name": "PixieWPS", "description": "Offline WPS PIN attack tool.", "command": "pixiewps"},
+    {"name": "Wpa_supplicant", "description": "Linux wireless client & authentication tool.", "command": "wpa_supplicant"},
+    {"name": "Hashcat", "description": "Password recovery & cracking tool.", "command": "hashcat"},
+    {"name": "Cowpatty", "description": "Offline WPA/WPA2-PSK dictionary attack tool.", "command": "cowpatty"}
+  ],
+
+  "Forensics Tools": [
+    {"name": "Autopsy", "description": "Digital forensics platform.", "command": "autopsy"},
+    {"name": "Volatility", "description": "Memory forensics framework.", "command": "volatility"},
+    {"name": "FTK Imager", "description": "Disk imaging and data preview tool.", "command": "ftkimager"},
+    {"name": "Sleuth Kit", "description": "File system analysis toolkit.", "command": "sleuthkit"},
+    {"name": "X-Ways Forensics", "description": "Forensics analysis software.", "command": "x-ways"},
+    {"name": "Bulk Extractor", "description": "Extract useful information from disk images.", "command": "bulk_extractor"},
+    {"name": "CAINE", "description": "Complete forensic environment on Linux.", "command": "caine"},
+    {"name": "DEFT Linux", "description": "Digital forensics and incident response distro.", "command": "deft"},
+    {"name": "The Coroner's Toolkit", "description": "Unix forensic analysis suite.", "command": "tct"},
+    {"name": "Registry Explorer", "description": "Windows registry forensic analysis tool.", "command": "regexplorer"}
+  ],
+
+  "Malware Analysis Tools": [
+    {"name": "Cuckoo Sandbox", "description": "Automated malware analysis sandbox.", "command": "cuckoo"},
+    {"name": "Remnux", "description": "Linux toolkit for malware analysis.", "command": "remnux"},
+    {"name": "YARA", "description": "Malware identification and classification.", "command": "yara"},
+    {"name": "PeStudio", "description": "Static malware analysis tool.", "command": "pestudio"},
+    {"name": "Malwarebytes", "description": "Malware scanning and removal tool.", "command": "malwarebytes"},
+    {"name": "IDA Pro", "description": "Interactive disassembler for reverse engineering.", "command": "ida"},
+    {"name": "Ghidra", "description": "Software reverse engineering suite.", "command": "ghidra"},
+    {"name": "Radare2", "description": "Reverse engineering framework.", "command": "radare2"},
+    {"name": "apktool", "description": "Reverse engineering Android apps.", "command": "apktool"},
+    {"name": "Immunity Debugger", "description": "Windows malware analysis & debugging.", "command": "immunity"}
+  ],
+
+  "Pentesting Tools": [
+    {"name": "Metasploit", "description": "Penetration testing framework.", "command": "msfconsole"},
+    {"name": "BeEF", "description": "Browser exploitation framework.", "command": "beef"},
+    {"name": "Empire", "description": "Post-exploitation framework.", "command": "empire"},
+    {"name": "Armitage", "description": "Graphical Metasploit frontend.", "command": "armitage"},
+    {"name": "Social-Engineer Toolkit", "description": "Phishing & social engineering attacks.", "command": "setoolkit"},
+    {"name": "Responder", "description": "LLMNR/NBT-NS poisoner for credential capturing.", "command": "responder"},
+    {"name": "Hashcat", "description": "Password cracking tool.", "command": "hashcat"},
+    {"name": "John the Ripper", "description": "Password cracking software.", "command": "john"},
+    {"name": "Hydra", "description": "Network login brute force tool.", "command": "hydra"},
+    {"name": "Medusa", "description": "Parallel login brute-forcer.", "command": "medusa"}
+  ],
+
+  "Cryptography Tools": [
+    {"name": "GnuPG", "description": "Encrypt and sign data and communications.", "command": "gpg"},
+    {"name": "OpenSSL", "description": "Toolkit for SSL/TLS and general cryptography.", "command": "openssl"},
+    {"name": "Hashcat", "description": "Password recovery & cracking tool.", "command": "hashcat"},
+    {"name": "VeraCrypt", "description": "Disk encryption tool.", "command": "veracrypt"},
+    {"name": "KeePassXC", "description": "Password manager and encryption.", "command": "keepassxc"},
+    {"name": "CryptoLocker Analysis", "description": "Analyze ransomware samples.", "command": "cryptolocker"},
+    {"name": "TrueCrypt", "description": "Disk encryption software.", "command": "truecrypt"},
+    {"name": "GPGTools", "description": "Mac cryptography suite.", "command": "gpgtools"},
+    {"name": "CrypTool", "description": "Educational cryptography software.", "command": "cryptool"},
+    {"name": "OpenPGP", "description": "Standard for encrypting and signing data.", "command": "openpgp"}
+  ],
+
+  "Network Security Tools": [
+    {"name": "Wireshark", "description": "Network protocol analyzer.", "command": "wireshark"},
+    {"name": "Tcpdump", "description": "Command-line packet analyzer.", "command": "tcpdump"},
+    {"name": "Ettercap", "description": "Network sniffer & MITM tool.", "command": "ettercap"},
+    {"name": "Snort", "description": "Intrusion detection and prevention system.", "command": "snort"},
+    {"name": "Suricata", "description": "Network threat detection engine.", "command": "suricata"},
+    {"name": "Netdiscover", "description": "ARP reconnaissance tool.", "command": "netdiscover"},
+    {"name": "OpenVPN", "description": "VPN solution.", "command": "openvpn"},
+    {"name": "IPTables", "description": "Linux firewall management tool.", "command": "iptables"},
+    {"name": "pfSense", "description": "Open source firewall/router distribution.", "command": "pfsense"},
+    {"name": "Ngrep", "description": "Network packet grep tool.", "command": "ngrep"}
+  ],
+
+  "Cloud Security Tools": [
+    {"name": "ScoutSuite", "description": "Multi-cloud security auditing tool.", "command": "scoutsuite"},
+    {"name": "Prowler", "description": "AWS security best practices assessment.", "command": "prowler"},
+    {"name": "CloudSploit", "description": "Cloud security monitoring tool.", "command": "cloudsploit"},
+    {"name": "Pacu", "description": "AWS exploitation framework.", "command": "pacu"},
+    {"name": "Kube-hunter", "description": "Kubernetes security auditing tool.", "command": "kube-hunter"},
+    {"name": "Kubesec", "description": "Kubernetes resource security scanner.", "command": "kubesec"},
+    {"name": "Trivy", "description": "Vulnerability scanner for containers & cloud.", "command": "trivy"},
+    {"name": "Lacework", "description": "Cloud security and compliance platform.", "command": "lacework"},
+    {"name": "Scout2", "description": "AWS security auditing tool.", "command": "scout2"},
+    {"name": "CloudMapper", "description": "Visualize AWS environments.", "command": "cloudmapper"}
+  ],
+
+  "Mobile & IoT Security Tools": [
+    {"name": "MobSF", "description": "Mobile Security Framework for Android/iOS.", "command": "mobsf"},
+    {"name": "Drozer", "description": "Android security testing framework.", "command": "drozer"},
+    {"name": "Frida", "description": "Dynamic instrumentation toolkit for developers.", "command": "frida"},
+    {"name": "Objection", "description": "Runtime mobile exploration toolkit.", "command": "objection"},
+    {"name": "Burp Suite Mobile Assistant", "description": "Mobile testing via Burp Suite.", "command": "burp-mobile"},
+    {"name": "Binwalk", "description": "Firmware analysis tool.", "command": "binwalk"},
+    {"name": "Firmware Mod Kit", "description": "Extract and rebuild embedded firmware.", "command": "fmk"},
+    {"name": "Wireshark Mobile", "description": "Mobile packet capture.", "command": "wireshark-mobile"},
+    {"name": "Aircrack-ng Mobile", "description": "Wireless attacks on mobile devices.", "command": "aircrack-mobile"},
+    {"name": "Zanti", "description": "Mobile penetration testing toolkit.", "command": "zanti"}
+  ]
+}
